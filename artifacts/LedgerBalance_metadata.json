@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newBalance",
+						"type": "uint256"
+					}
+				],
+				"name": "updateBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"simple_storage/LedgerBalance.sol": "LedgerBalance"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"simple_storage/LedgerBalance.sol": {
+			"keccak256": "0x8517a17f14b0fd32e3be9b7eded22a5e56a8d4f8cec2104a45bb1c5d740004af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77de399aea5c55ed0a8ec61e4ea057dea7a16ab0a3c5c487b161e7ab9e9aa9e5",
+				"dweb:/ipfs/Qmdb5tDE6ZEv7qnzzZdAtASFddVst9mit9TECqXVKWW1oe"
+			]
+		}
+	},
+	"version": 1
+}
